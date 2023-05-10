@@ -46,7 +46,10 @@ applications.
 requirements = pyjnius
 android.add_aars = ffmpeg-kit-release.aar
 android.add_jars = smart-exception-common-0.2.1.jar, smart-exception-java-0.2.1.jar
-``` 
+android.minapi = 25
+```      
+The minimum api number can be anything above 25.    
+
 ##### 3)   Using Pyjnius, declare the variables in Python (https://pyjnius.readthedocs.io/en/stable/)
 ```
 #IMPORTING jnius
