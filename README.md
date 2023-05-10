@@ -34,7 +34,7 @@ applications.
 ### 3. Using With Python
       
       
-##### NOTE: If you are having lower quality exports, add "-q:v 1 -q:a 1" before your output file/path. 1 for highest.        
+#### NOTE: If you are having lower quality exports, add "-q:v 1 -q:a 1" before your output file/path. 1 for highest.        
 ##### MAKE SURE TO USE Android MIN API 24 or higher. 
       
 ##### 0)   Add SmartExpetion Common and SmartExeption java from (https://github.com/tanersener/smart-exception/releases/tag/v0.2.1) 
