@@ -91,8 +91,8 @@ Try testing the application on a device with developer mode enabled, it may be t
 I don't remember anything else that i did differently in my  own application from the tutorial.      
 
 Sorry for inconvenience and IF these don't work i will try recreating a small application using this without bloat for documentation purposes
-# "    
--Me, unwilling to recreate unless something really fails...       
+# " -Me, unwilling to recreate unless something really fails...       
+
 
 #### EXAMPLES      
 ##### 1) FFMPEG     
