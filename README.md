@@ -81,7 +81,7 @@ print(probeCommand)
 NOTE - FILTER_COMPLEX can not be used. (IDK why, if you have solution tell me please)      
 
 ### If it Still does not work for you:    
-# "
+# " 
 Deployment fail, send it's adb debugging logs. also it is working for me, i have used it in a private application, i used alot more than htis tutorial or the docs show, i may have missed something that it needs since i relied on my memory while writing the tutorial instead of accually recreating the steps i had used to use it in my own application. I am sorry for inconvenience.     
 
 But i do recommend some things which may or may not have caused it to work/fail -    
