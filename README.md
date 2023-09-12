@@ -181,14 +181,4 @@ Use `--enable-<library name>` flag to support additional external or system libr
 
 Run `--help` to see all available build options.
 
-#### 2.3 LTS Binaries
-
-NOT SUPPORTED FOR PYTHON
-
-#### 2.4 Build Output
-
-All libraries created by `android.sh` can be found under the `prebuilt` directory.
-
-- `Android` archive (.aar file) for `Main` builds is located under the `bundle-android-aar` folder.
-- LTS is not supported sorry. (For Python)
 
