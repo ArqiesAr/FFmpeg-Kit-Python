@@ -3,3 +3,8 @@
 /prebuilt/
 .DS_Store
 .idea
+.gradle/5.6.4/gc.properties
+.gradle/*
+Android-SDK-NDK
+build.log
+.gradle/5.6.4/fileChanges/last-build.bin

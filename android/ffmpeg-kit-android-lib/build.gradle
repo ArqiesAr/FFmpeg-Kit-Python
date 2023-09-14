@@ -40,13 +40,15 @@ android {
             systemProperty 'enable.ffmpeg.kit.test.mode', 'true'
         }
     }
+}
 
-    publishing {
-        singleVariant('release') {
-            withJavadocJar()
-            withSourcesJar()
-        }
-    }
+task javadoc(type: Javadoc) {
+    title = 'FFmpegKit'
+    destinationDir = file("${projectDir}/../../docs/android/javadoc")
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    source = android.sourceSets.main.java.srcDirs
+    configurations.implementation.setCanBeResolved(true)
+    classpath += configurations.implementation
 }
 
 dependencies {
