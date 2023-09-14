@@ -159,7 +159,7 @@ external libraries enabled.
 Use your package manager (apt, yum, dnf, brew, etc.) to install the following packages.
 
 ```
-autoconf automake libtool pkg-config curl cmake gcc gperf texinfo yasm nasm bison autogen git wget autopoint meson ninja
+sdkmanager autoconf automake libtool pkg-config curl cmake gcc gperf texinfo yasm nasm bison autogen git wget autopoint meson ninja
 ```
 
 ##### 2.1.3 Environment Variables 
