@@ -152,6 +152,7 @@ external libraries enabled.
 ##### 2.1.1 Android Tools
    - Android SDK Build Tools
    - Android NDK r22b or later with LLDB and CMake (See [#292](https://github.com/arthenica/ffmpeg-kit/issues/292) if you want to use NDK r23b)
+   - Java 17 (prefered: openjdk-17-jdk)
 
 ##### 2.1.2 Packages
 
@@ -163,7 +164,13 @@ autoconf automake libtool pkg-config curl cmake gcc gperf texinfo yasm nasm biso
 
 ##### 2.1.3 Environment Variables 
 
-Set `ANDROID_SDK_ROOT` and `ANDROID_NDK_ROOT` environment variables before running `android.sh`.
+
+
+Set `ANDROID_SDK_ROOT` and `ANDROID_NDK_ROOT` environment variables before running `android.sh`. (not NDK-bundle, Preferably install using sdkmanager)      
+sdkmanager command:
+```
+sdkmanager --install "build-tools;24.0.3" "tools;24.4.1" "platform-tools;24.0.0" "ndk;r22b" "cmake;3.22.1" "ndk-bundle;r22b"
+```
 
 ```
 export ANDROID_SDK_ROOT=<Android SDK Path>
