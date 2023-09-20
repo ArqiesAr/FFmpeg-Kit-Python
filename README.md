@@ -154,7 +154,7 @@ external libraries enabled.
 ##### 2.1.1 Android Tools
    - Android SDK Build Tools
    - Android NDK r22b or later with LLDB and CMake (See [#292](https://github.com/arthenica/ffmpeg-kit/issues/292) if you want to use NDK r23b)
-   - Java 17 (prefered: openjdk-17-jdk)
+   - Java (openjdk)
 
 ##### 2.1.2 Packages
 
