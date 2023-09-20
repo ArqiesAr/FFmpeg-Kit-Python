@@ -1,6 +1,8 @@
 
 
 # FFmpegKit for Python
+### Build is outdated* You can choose to build this yourself or use older build.
+
 ### VIDEO TUTORIAL - https://youtu.be/F8yJwRof948      
 `FFmpegKit` is a collection of tools to use `FFmpeg` in `Android` applications.
 
