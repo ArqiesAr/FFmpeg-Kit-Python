@@ -22,7 +22,7 @@ applications.
 ## 2. Android (+Python)
 
 ### 1. Features
-- Supports `API Level 24+` on Main releases.
+- Supports `API Level 25+` on Main releases.
 - Includes `arm-v7a`, `arm-v7a-neon`, `arm64-v8a`, `x86` and `x86_64` architectures
 - Can handle Storage Access Framework (SAF) Uris
 - Camera access on [supported devices](https://developer.android.com/ndk/guides/stable_apis#camera)
