@@ -1,6 +1,6 @@
 
 
-# FFmpegKit for Python - V6.0.2 
+# FFmpegKit for Python - V6.0.2 (broken, working on a fix)
 
 `FFmpegKit` is a collection of tools to use `FFmpeg` in `Android` applications.
 
