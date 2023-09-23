@@ -45,9 +45,9 @@ applications.
 ##### 2)   In Buildozer spec file add jnius to requirements and the aar file. (Alongside what you already have)
 ```
 requirements = pyjnius,cython
-android.add_aars = ffmpeg-kit-release.aar
+android.add_aars = ffmpeg-kit-*.aar
 android.add_jars = smart-exception-common-0.2.1.jar, smart-exception-java-0.2.1.jar
-android.minapi = 25
+android.minapi = 26
 ```      
 The minimum api number can be anything above 25.    
 
