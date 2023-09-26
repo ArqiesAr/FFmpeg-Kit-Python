@@ -25,9 +25,9 @@ Building is at the end of the documentation, Building yourself doesn't seem to w
 #### NOTE: If you are having lower quality exports, add "-q:v 1 -q:a 1" before your output file/path. 1 for highest.  
  
 #### 1) Installing NDK r25c using sdkmanager.     
-Install sdkmanager using your package manager (as ROOT).      
-`apt/dnf install sdkmanager` or `pacman -S sdkmanager`      
-then, Install the right ndk using - `sdkmanager --install "ndk;r25c"`
+Install sdkmanager using your package manager (as ROOT/sudo).      
+`sudo apt/dnf install sdkmanager` or `sudo pacman -S sdkmanager`      
+then, Install the right ndk using - `sudo sdkmanager --install "ndk;r25c"`
 Note down the path the ndk installs to, it is required in next step.
 
 ##### 2)   In Buildozer spec file add Basic requirements/library and the ndk path of last command. (Alongside what you already have)
