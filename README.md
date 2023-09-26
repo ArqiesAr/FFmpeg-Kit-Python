@@ -34,7 +34,6 @@ Note down the path the ndk installs to, it is required in next step.
 requirements =  pyjnius, jnius
 android.api = 32
 android.minapi = 26
-android.sdk = 30
 
 # Adding the right (and working NDK); Your path would/should be different, but here is what my Path is: /opt/android-sdk/ndk/25.2.9519653 
 android.ndk_path = /Path/to/sdk-ndk/ 
