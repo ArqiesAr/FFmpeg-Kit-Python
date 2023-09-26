@@ -78,18 +78,7 @@ print(probeCommand)
 NOTE - FILTER_COMPLEX can not be used. (IDK why, if you have solution tell me please)      
 
 ### If it Still does not work for you:    
-# " 
-Deployment fail, send it's adb debugging logs. also it is working for me, i have used it in a private application, i used alot more than htis tutorial or the docs show, i may have missed something that it needs since i relied on my memory while writing the tutorial instead of accually recreating the steps i had used to use it in my own application. I am sorry for inconvenience.     
-
-But i do recommend some things which may or may not have caused it to work/fail -    
-Manage storage permission (all storage instead of media)    
-Try testing the application on a device with developer mode enabled, it may be the cause.    
-
-I don't remember anything else that i did differently in my  own application from the tutorial.      
-
-Sorry for inconvenience and IF these don't work i will try recreating a small application using this without bloat for documentation purposes
-# "     
--Me, unwilling to recreate unless something really fails...       
+Create a new issue, Make sure to include your buildozer.conf and buildlogs. 
 
 
 #### EXAMPLES      
