@@ -20,11 +20,7 @@ applications.
 Building is at the end of the documentation, Building yourself doesn't seem to work btw.                                                         
 
 ### 3. Using With Python
-      
-      
-      
-##### MAKE SURE TO USE Android MIN API 24 or higher. Requires Cython and other buildozer libararies to be installed.
-    
+
         
 #### NOTE: If you are having lower quality exports, add "-q:v 1 -q:a 1" before your output file/path. 1 for highest.  
  
