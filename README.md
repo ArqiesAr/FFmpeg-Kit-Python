@@ -7,8 +7,6 @@
 It includes scripts to build `FFmpeg` native libraries, a wrapper library to run `FFmpeg`/`FFprobe` commands in
 applications.     
      
-(Outdated) VIDEO TUTORIAL - https://youtu.be/F8yJwRof948        
-
 ## 1. Android (+Python)
 
 ### 1. Features
