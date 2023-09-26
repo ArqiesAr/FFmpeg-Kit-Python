@@ -9,17 +9,7 @@ applications.
      
 (Outdated) VIDEO TUTORIAL - https://youtu.be/F8yJwRof948        
 
-
-
-
-### 1. Features
-- Scripts to build FFmpeg native libraries
-- `FFmpegKit` wrapper library to run `FFmpeg`/`FFprobe` commands in applications
-- Supports native platforms: Android
-- Based on FFmpeg `v4.5-dev` or later with optional system and external libraries
-
-
-## 2. Android (+Python)
+## 1. Android (+Python)
 
 ### 1. Features
 - Supports `API Level 26+` on Main releases.
@@ -151,7 +141,7 @@ print(frameRate)
 
 
 
-### 2. Building (Skip this part and use prebuilt from RELEASES section)
+### Building (Skip this part, its for myself lol)
 
 Run `android.sh` at project root directory to build `ffmpeg-kit` and `ffmpeg` shared libraries. 
 
