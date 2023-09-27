@@ -39,7 +39,7 @@ android.minapi = 26
 android.ndk_path = /Path/to/sdk-ndk/ 
 
 # Adding the library.
-android.gradle_dependencies = com.arqies:ffmpeg-kit-python:6.0-2.LTS@aar
+android.gradle_dependencies = com.arqies:ffmpeg-kit-python:6.0-2.LTS@aar, com.arthenica:smart-exception-common:0.2.1@jar , com.arthenica:smart-exception-java:0.2.1@jar 
 android.add_gradle_repositories = maven {url 'https://Arqies-Repositories.github.io/Gradle-FFmpeg-Kit-Python/'}
 android.enable_androidx = True
 
