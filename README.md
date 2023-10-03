@@ -6,6 +6,8 @@
 
 It includes scripts to build `FFmpeg` native libraries, a wrapper library to run `FFmpeg`/`FFprobe` commands in
 applications.     
+
+Video Tutorial: https://youtu.be/z-RKGXo6Qys  
      
 ## 1. Android (+Python)
 
@@ -15,7 +17,7 @@ applications.
 - Can handle Storage Access Framework (SAF) Uris
 - Builds shared native libraries (.so)
 
-Building is at the end of the documentation, Building yourself doesn't seem to work btw.                                                         
+Building is at the end of the documentation, Building yourself doesn't seem to work btw.                                                              
 
 ### 3. Using With Python
 
