@@ -1,5 +1,5 @@
 # No Longer Maintained      
-The underlying library, FFmpeg Kit, has been discontinued. Since this project simply wraps and hosts it for Kivy/Python via a Gradle repository, continued maintenance is no longer possible.        
+The underlying library, [FFmpeg Kit](https://github.com/arthenica/ffmpeg-kit), has been discontinued. Since this project simply wraps and hosts it for Kivy/Python via a Gradle repository, continued maintenance is no longer possible.        
       
 
 # FFmpegKit for Python - V6.0.2
